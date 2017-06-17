@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Safeya Fawzy</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Martel">
+        <link rel="stylesheet" href="Css/reset.css" type="text/css"> 
+        <link rel="stylesheet" href="Css/home.css" type="text/css">
+    </head>
+
+        <!-------------------
+        ------MAIN PAGE------
+        -------------------->
+    
+    <body>
+        
+        <!-------------------
+        ------SIDE NAV-------
+        -------------------->
+            
+        <!------button------>
+            <button class="smallmenu">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <h1><a href="Home.html">safeya fawzy</a></h1>
+            </button>
+            
+            <nav id="sidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" style="font-size:50px;cursor:pointer" onclick="closeNav()">&times;</a>
+                <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="work.html">work</a></li>
+                    <li><a href="resume.html">resume</a></li>
+                    <li id="lastli"><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+            
+            <script>
+                function openNav() {
+                document.getElementById("sidenav").style.width = "100%";
+                }
+
+                function closeNav() {
+                document.getElementById("sidenav").style.width = "0";
+                }
+            </script>
+        
+        <!-------------------
+        ------MAIN NAV-------
+        -------------------->
+        
+        <header>
+            <h1><a href="Home.html">safeya fawzy</a></h1>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="work.html">work</a></li>
+                    <li><a href="resume.html">resume</a></li>
+                    <li id="lastli"><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+            
+            
+        </header>
+        
+            <!-------------------
+            -------Content--------
+            -------------------->
+        
+            <div id="slideshow">
+                <ul>
+                  <li id="first" class="first-animation">
+                    <!-- ID for tooltip and class for animation -->
+                    <img src="Images/Slideshow/1.jpg" alt=""/>
+                  </li>
+
+                  <li id="second" class="second-animation">
+                    <img src="Images/Slideshow/2.jpg" alt=""/>
+                  </li>
+
+                  <li id="third" class="third-animation">
+                    <img src="Images/Slideshow/3.jpg" alt=""/>
+                  </li>
+
+                  <li id="fourth" class="fourth-animation">
+                    <img src="Images/Slideshow/4.jpg" alt=""/>
+                  </li>
+
+                  <li id="fifth" class="fifth-animation">
+                    <img src="Images/Slideshow/5.jpg" alt=""/>
+                  </li>
+                <!----
+                    <li id="first" class="first-animation">
+                    <img src="Images/Slideshow/6.jpg" alt=""/>
+                  </li>
+
+                  <li id="second" class="second-animation">
+                    <img src="Images/Slideshow/7.jpg" alt=""/>
+                  </li>
+
+                  <li id="third" class="third-animation">
+                    <img src="Images/Slideshow/8.jpg" alt=""/>
+                  </li>
+
+                  <li id="fourth" class="fourth-animation">
+                    <img src="Images/Slideshow/9.jpg" alt=""/>
+                  </li>
+
+                  <li id="fifth" class="fifth-animation">
+                    <img src="Images/Slideshow/10.jpg" alt=""/>
+                  </li>
+                ---->
+                </ul>
+
+            </div>
+
+        
+            <!-------------------
+            -------Footer--------
+            -------------------->
+        
+        <div id="fixedcopy" class="copyright">
+            <p>cairo | copyright 2017</p>
+        </div>
+        
+        
+            <!-------------------
+            -------Java----------
+            -------------------->
+
+    </body>
+    
+</html>
