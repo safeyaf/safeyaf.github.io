@@ -645,7 +645,7 @@ body{
             }
 
             #fixedcopy{
-
+                display: block;
                 position: absolute;
                 right:12.5%;
                 bottom: 4%;
