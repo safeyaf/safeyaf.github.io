@@ -354,7 +354,13 @@
         
             .quotes{
             width: 100%;
+            margin: 0;
 
+        }
+        
+        .quotes p{
+            width: 100%;
+            margin: 0;
         }
         
 }
