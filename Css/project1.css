@@ -236,28 +236,6 @@
     
     
        @media screen and (max-width: 750px) {
-
-    header h1 {
-    width: 100%;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 4%;
-
-            }
-
-        .navigation {
-            width: 100%;
-        }
-
-        .navigation ul{
-            margin:auto;
-            text-align: center;
-            float: none;
-        }
-
-        #slideshow{
-            margin-top: 15%;
-        }
            
            
         #navprojects{
@@ -273,86 +251,12 @@
 
     @media screen and (max-width: 500px) {
 
-        header h1{
-            display: none;
-        }
-
-        .smallmenu{
-        display: block;
-
-        }
-
-
-        .smallmenu h1 {
-    width: 80%;
-    text-align: right;
-    float: right;
-    margin-bottom: 4%;
-
-            }
-
-        .navigation{
-        display: none;
-        }
-
-
-        span {
-        display: block;
-        float: left;
-        margin: auto;
-        }
-
-        span:hover {
-        color:lightgray;
-        }
-
-        .sidenav{
-            display: block;
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: lightgray;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding: 0;
-            text-align: center;
-            padding-top:3.5%;
-            margin:0;
-            }
-
-        .sidenav ul{
-            padding-top: 5%;
-
-        }
-                   .sidenav li a{ 
-                        text-decoration:none;
-                        color:grey;
-                        font-size:20px;
-                       line-height: 40px;
-                        font-weight: 100;
-                    }   
-
-                    .sidenav ul li a:hover{
-                        color:lightgray;
-
-                    }
-        .closebtn{
-            text-decoration: none;
-            color: gray;
-        }
-
-            #slideshow{
-            margin-top: 15%;
-        }
         
         #navprojects{
         display: none;
         }
         
-            .quotes{
+        .quotes{
             width: 100%;
             margin: 0;
 
