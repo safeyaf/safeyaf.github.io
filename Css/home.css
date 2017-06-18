@@ -28,9 +28,7 @@ body{
             font-family: 'Martel', serif;
         }
 
-        .smallmenu:focus {
-        outline: none;
-        }
+        .smallmenu:focus {outline:0;}
 
             .smallmenu h1{
                 padding-right: 0;
@@ -47,6 +45,8 @@ body{
                 font-size: 20pt;  
                 width: 80%;
                 }
+
+            .smallmenu h1:focus {outline:0;}
          
 
                 .smallmenu h1 a{
@@ -61,7 +61,7 @@ body{
                     color: lightgray;
                     background: none;
                     border: none;
-                }
+              }
 
         span {
             font-size: 30px;
