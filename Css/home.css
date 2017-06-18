@@ -648,7 +648,7 @@ body{
                 display: block;
                 position: absolute;
                 right:12.5%;
-                bottom: 4%;
+                bottom: 6%;
 
             }
 
@@ -735,7 +735,7 @@ body{
 
 
         .smallmenu h1 {
-    width: 60%;
+    width: 80%;
     text-align: right;
     float: right;
     margin-bottom: 4%;
@@ -749,7 +749,7 @@ body{
 
         span {
         display: block;
-            float: left;
+        float: left;
         margin: auto;
         }
 
