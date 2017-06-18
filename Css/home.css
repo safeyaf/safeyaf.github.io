@@ -722,7 +722,7 @@ body{
 
     }
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 7in) {
 
         header h1{
             display: none;
