@@ -24,25 +24,3 @@
     font-size: 10pt;
     margin-top: 10pt;
 }
-
-
-@media screen and (max-width: 500px) {
-    
-    #resume h4{
-    font-size: 14pt;
-    font-weight: 600;
-}
-
-
-#resume h3{
-    font-size: 12pt;
-
-}
-
-#resume li{
-    font-size: 8pt;
-}
-
-#resume p{
-    font-size: 8pt;
-}
