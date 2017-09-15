@@ -1,5 +1,5 @@
 body{
-    background-color: #F0F1F2;
+    background-color: #F3F2F3;
     font-family: 'Martel', serif;
     width: 75%;
     /*border-style: solid;
@@ -663,11 +663,12 @@ body{
 
 
     #contact {
-        margin-top: 15%;
+        margin-top: 14%;
+        margin-bottom: 5%;
     }
 
         #contact h4{
-            font-size: 16pt;
+            font-size: 15.5pt;
             font-weight: 600;
         }
 
@@ -687,6 +688,10 @@ body{
         #contact p{
             font-size: 10pt;
             margin-top: 10pt;
+        }
+
+        #bio{
+            width: 55%;
         }
 
 
@@ -722,6 +727,9 @@ body{
         #slideshow{
             margin-top: 15%;
         }
+        
+        #bio{
+            width: 100%;
 
     }
 
@@ -800,4 +808,8 @@ body{
 
             #slideshow{
             margin-top: 15%;
+        }
+        
+            #bio{
+            width: 100%;
         }
