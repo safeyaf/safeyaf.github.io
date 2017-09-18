@@ -690,9 +690,19 @@ body{
             margin-top: 10pt;
         }
 
+        #bioimg{
+        width:55%;
+        margin-top: 3%;
+        }
+
+        #bioimg img{
+        width:100%;
+        }
+
         #bio{
             width: 55%;
         }
+
 
 
 
