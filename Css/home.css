@@ -702,6 +702,8 @@ body{
         #bio{
             width: 55%;
         }
+        
+        
 
 
 
@@ -740,8 +742,12 @@ body{
         
         #bio{
             width: 100%;
-
-    }
+        }
+        
+        #bioimg{
+        width:100%;
+        margin-top: 3%;
+        }
 
     @media screen and (max-width: 500px) {
 
@@ -822,4 +828,9 @@ body{
         
             #bio{
             width: 100%;
+        }
+        
+        #bioimg{
+        width:100%;
+        margin-top: 3%;
         }
