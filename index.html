@@ -6,7 +6,8 @@
         <meta name="keywords" content="safeya ashraf fawzy, graphic design, book design, publishing, book art, printing, linocut, bookbinding, handcrafts, woodcut, silkscreen, manual prints, letterpress, printing press, nature, illustration, instellation, paper, Egypt, Cairo, Germany, Heidelberg, Berlin, Cologne, GUC, HTW, portfolio">
         <meta name="author" content="Safeya Ashraf Fawzy">
         <title>Safeya Fawzy</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Martel">
+        
+        <link rel="stylesheet" href="https://use.typekit.net/fjt1ghk.css">
         <link rel="stylesheet" href="Css/reset.css" type="text/css"> 
         <link rel="stylesheet" href="Css/home.css" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,113 +24,163 @@
         -------------------->
             
         <!------button------>
-            <button class="smallmenu">
-                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-                <h1><a href="index.html">safeya fawzy</a></h1>
-            </button>
-            
-            <nav id="sidenav" class="sidenav">
-                  <a href="javascript:void(0)" class="closebtn" style="font-size:50px;cursor:pointer" onclick="closeNav()">&times;</a>
-                <ul>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="work.html">work</a></li>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="resume.html">resume</a></li>
-                    <li id="lastli"><a href="contact.html">contact</a></li>
-                </ul>
-            </nav>
-            
-            <script>
-                function openNav() {
-                document.getElementById("sidenav").style.width = "100%";
-                }
+                <button class="smallmenu">
+                    <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+                    <div id="smallnavlogo"><a href="index.html"><img src="Images/Bio/Logo.png"></a></div>
+                </button>
 
-                function closeNav() {
-                document.getElementById("sidenav").style.width = "0";
-                }
-            </script>
-        
+                <nav id="sidenav" class="sidenav">
+                      <a href="javascript:void(0)" class="closebtn" style="font-size:50px;cursor:pointer" onclick="closeNav()">&times;</a>
+                    <ul>
+                        <li><a class="mfooternav" href="work.html">work</a></li>
+                        <li><a class="mfooternav" href="workshops.html">workshops</a></li>
+                        <li><a class="mfooternav" href="contact.html">contact</a></li>
+                        <br>
+                        <li><a class="sfooternav" href="privacy.html">privacy policy</a></li>
+                        <li><a class="sfooternav" href="imprint.html">imprint</a></li>
+                    </ul>
+                </nav>
+
+                <script>
+                    function openNav() {
+                    document.getElementById("sidenav").style.width = "100%";
+                    }
+
+                    function closeNav() {
+                    document.getElementById("sidenav").style.width = "0";
+                    }
+                </script>
         <!-------------------
         ------MAIN NAV-------
         -------------------->
         
         <header>
-            <h1><a href="index.html">safeya fawzy</a></h1>
+            <div><a href="index.html"><img src="Images/Bio/Logo.png"></a></div>
             <nav class="navigation">
                 <ul>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="work.html">work</a></li>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="resume.html">resume</a></li>
-                    <li id="lastli"><a href="contact.html">contact</a></li>
+                    <li><a href="work.html">. &nbsp; work</a></li>
+                    <li><a href="workshops.html">. &nbsp; workshops</a></li>
+                    <li id="lastli"><a href="contact.html">. &nbsp; contact</a></li>
                 </ul>
             </nav>
-            
-            
         </header>
         
             <!-------------------
             -------Content--------
             -------------------->
         
-            <div id="slideshow">
-                <ul>
-                  <li id="first" class="first-animation">
-                    <!-- ID for tooltip and class for animation -->
-                    <img src="Images/Slideshow/1.jpg" alt=""/>
-                  </li>
+                <div><img id="bigpic" src="Images/Slideshow/1.jpg"></div>
+        
+        
+        
+                    <!-------------------
+            ---MainInfo2 Mobile --
+            -------------------->  
 
-                  <li id="second" class="second-animation">
-                    <img src="Images/Slideshow/11.jpg" alt=""/>
-                  </li>
+        
+            <p id="maininfo2mobile">
+                Welcome, Marhaba and Willkommen! <br>It&rsquo;s all about fostering intercultural dialogue and exchange through design. Specializing in publication design, graphic design, print materials and visual identities. My work spans across various sectors, including arts, culture, literature, non-profit organizations and environmental initiatives.
+            </p>
+        
+        
+        
+        
+        
+                
+        <div id="maininfo">
+            
+            <p id="maininfo1">
+                Multilingual <br>&nbsp; &nbsp; &nbsp; &nbsp; / Publication <br> and Graphic <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; / Design
+            </p>
 
-                  <li id="third" class="third-animation">
-                    <img src="Images/Slideshow/2.jpg" alt=""/>
-                  </li>
+            <p id="maininfo2">
+                Welcome, Marhaba and Willkommen! <br>It&rsquo;s all about fostering intercultural dialogue and exchange through design. Specializing in publication design, graphic design, print materials and visual identities. My work spans across various sectors, including arts, culture, literature, non-profit organizations and environmental initiatives.
+            </p>
 
-                  <li id="fourth" class="fourth-animation">
-                    <img src="Images/Slideshow/3.jpg" alt=""/>
-                  </li>
+        </div>
+        
 
-                  <li id="fifth" class="fifth-animation">
-                    <img src="Images/Slideshow/4.jpg" alt=""/>
-                  </li>
-                  <li id="sixth" class="sixth-animation">
-                    <img src="Images/Slideshow/5.jpg" alt=""/>
-                  </li>
+        
+               <!-------------------
+            -------Slideshow-------
+            -------------------->   
+        
+        
+        <div id="slideshow">
+              <img class="mySlides animate-fading" src="Images/Slideshow/2.jpg">
+              <img class="mySlides animate-fading" src="Images/Slideshow/3.jpg"> 
+              <img class="mySlides animate-fading" src="Images/Slideshow/4.jpg">
+            <img class="mySlides animate-fading" src="Images/Slideshow/_DSC0709ss_web.jpg"> 
+              <img class="mySlides animate-fading" src="Images/Slideshow/6.jpg">
+              <img class="mySlides animate-fading" src="Images/Slideshow/8.jpg"> 
+              <img class="mySlides animate-fading" src="Images/Slideshow/9.jpg">
+              <img class="mySlides animate-fading" src="Images/Slideshow/_DSC0806-3ss_web.jpg">
+            <img class="mySlides animate-fading" src="Images/Slideshow/11.jpg">
 
-                  <li id="seventh" class="seventh-animation">
-                    <img src="Images/Slideshow/6.jpg" alt=""/>
-                  </li>
+        </div>
 
-                  <li id="eighth" class="eighth-animation">
-                    <img src="Images/Slideshow/7.jpg" alt=""/>
-                  </li>
+            <script>
+                var myIndex = 0;
+                carousel();
 
-                  <li id="ninth" class="ninth-animation">
-                    <img src="Images/Slideshow/8.jpg" alt=""/>
-                  </li>
-
-                  <li id="tenth" class="tenth-animation">
-                    <img src="Images/Slideshow/9.jpg" alt=""/>
-                  </li>
-                </ul>
-
-            </div>
+                function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  myIndex++;
+                  if (myIndex > x.length) {myIndex = 1}    
+                  x[myIndex-1].style.display = "block";  
+                  setTimeout(carousel, 6000);    
+                }
+            </script>
+    
+        
+        
+        
+        
+        
+        
+            <!-------------------
+            ---About this page --
+            --------------------> 
+        
+        
+        <div id="rotateleft">
+            <p class="descriptionleft">
+                <a href="publication.html">. &nbsp; publication &nbsp;</a>
+                <a href="graphic.html">. &nbsp; graphic &nbsp;</a>
+                <a href="multilingual.html">. &nbsp; multilingual design</a>
+            </p>
+        </div>
+        
+        <div id="rotateright">
+            <p class="descriptionright">
+                <a href="index.html">. &nbsp; english &nbsp;</a>
+                . &nbsp; german &nbsp; . &nbsp; arabic
+            </p>
+        </div>
 
         
             <!-------------------
             -------Footer--------
             -------------------->
         
-        <div id="fixedcopy" class="copyright">
-            <p>Copyright 2023</p>
+        <div id="webcopyright" class="copyright">
+            <p>. &nbsp; &#169; 2024 - safeya fawzy</p>
+            <p id="privacy">
+                <a href="privacy.html">. &nbsp; privacy policy</a>
+            </p>
+            <p id="imprint">
+                <a href="imprint.html">. &nbsp; imprint</a>
+            </p>
+            <p id="mail">
+                <a href="mailto:safeyafawzy@gmail.com">. &nbsp; safeyafawzy@gmail.com</a>
+            </p>
+            
         </div>
         
-        
-            <!-------------------
-            -------Java----------
-            -------------------->
 
     </body>
     

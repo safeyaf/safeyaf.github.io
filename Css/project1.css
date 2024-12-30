@@ -1,29 +1,38 @@
 /**********************
-*********TEXT**********
+*****Navi Projects*****
 ***********************/
 
-#navprojects{
+#navprojects {
         position: fixed;
         top: 0;
         left: 0;
         z-index: +1;
         width: 100%;
-        margin-top: 25%;
+        margin-top: 47%;
         padding: 0;
+        font-size:35px;
+        font-weight: 500;
+        font-style: italic;
 }
+
 
     .previous{
         float: left;
-        margin-left: 2%;
+        margin-left: 7.5%;
         padding: 0;
-        color: gray;
+        text-decoration:none;
+        color:#9cac3b;
+
     }
     .next {
         float: right;
-        margin-right: 2%;
+        margin-right: 7.5%;
         padding: 0;
-        color: grey;
+        text-decoration:none;
+        color:#9cac3b;
+        
     }
+
 .previous:hover{
     color: lightgrey;
 }
@@ -33,103 +42,83 @@
 }
 
 
-/*#backgallery {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 9999;
-        width: 100%;
-        margin-top: 46%;
-        float: right;   
-}
-
-*/
-
-#backgallery{
-    width: 100%;
-    text-align: center;
-}
-
-    .back{
-        padding: 0;
-        text-decoration: none;
-        font-size:18px;
-        color: gray;
-    }
-        .back:hover{
-            color: lightgrey;
-
-        }
-
-/*.background {
-    z-index: -1;
-    top: 0px;
-    right: 0px;
-    position: absolute;
-    width: 100%;
-    height: 200%;
-    background-image: url(../Images/stars.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}*/
-
-/*.background{
-    z-index: -1;
-    top: 35%;
-    right: 8%;
-    position: absolute;
-    width: 60%;
-    height: 30%;
-    background-color: lightgrey;
-}*/
+    /**********************
+    *******Content**********
+    ***********************/
 
 
 #content {
     /*border: solid black;*/
     overflow: hidden;
     margin-bottom: 4%;
-    width: 100%;
+    width: 85%;
     height: auto;
-    margin-top: 8%;
+    margin-top: 10%;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
 }
 
 
     .text{
-        width: 41%;
+        width: 100%;
         float: left;
-        font-size: 14px;
-        line-height: 22px;
         padding: 0;
         margin: 0;
-        /*border: green solid;*/
+        color: #9cac3b;
+    /*border: green solid;*/
     }
 
     .text h2{
-        font-size: 21px;
-        line-height: 28px;
-        font-weight: 900;
+        font-size: 45px;
+        line-height: 55px;
+        font-style: italic;
+        font-weight: 500;
+        width: 80%;
+        float: left;
+        position: absolute;
+        margin-top: 12%;
         /*border: solid black;*/
     }
 
     .description{
-        margin-top: 6%;
+        column-count: 2;
+        widows: 4;
+        orphans: 9;
+        margin-top: 10%;
         margin-bottom: 3%;
-        font-weight: 400;
+        float: left;
+        width: 100%;
         overflow: hidden;
+        font-size: 23px;
+        line-height: 33px;
+        column-gap: 8%;
+        column-rule-style: solid ;
+        column-rule-width: 2.5px ;
         /*height: 230px;*/
         /*border: solid black;*/
     }
-    .info{
+
+ 
+
+    .info {
         /*border: solid black;*/
         margin: 0;
         padding: 0;
-        font-size: 12px;
-        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        float: left;
+        text-align:right;
+        width: 100%;
+        color:#9cac3b; 
+        text-align: left;
+
+
+
     }
 
 
     .mainimg{
-        width: 55%;
+        width: 70%;
         /*border: solid black;*/
         float: right;
         padding: 0;
@@ -157,7 +146,9 @@
 
 
     .pictures {
-        width: 100%;
+        width: 85%;
+        margin-right: 7.5%;
+        margin-left: 7.5%;
     }
 
         .pictures .outcome{
@@ -218,75 +209,169 @@
             margin-top: 30px;
         }
 
-/**********************
-******RESPONSIVE*******
-***********************/
-@media screen and (max-width: 980px) {
 
 
-    #navprojects{
-        margin-top: 35%;
+    /**********************
+    *******FOOTER**********
+    ***********************/
+
+
+            #webcopyright {
+                width: 85%;
+                margin-left: 7.5%;
+                margin-right: 7.5%;
+            }
+
+
+   /**********************
+    ******RESPONSIVE*******
+    ***********************/
+
+
+    /****Desktop/BigLaptop**********/
+
+
+    @media screen and (min-width: 1600px) {
+        
+         /***project***/
+        
+        .text h2 {
+            font-size: 55px;
+            line-height: 65px;
+            margin-top: 10%;
+        }
+         
+        #navprojects {
+        font-size: 45px;
+        }  
+            
+        .description {
+            font-size: 28px;
+            line-height: 40px;
+
+            }
+            
+        .description .info {
+        font-size: 22px;
+        line-height: 25px;
+        text-align: left;
+
+            }
+}
+
+    @media screen and (max-width: 1350px) {
+        .text h2 {
+            font-size: 40px;
+            line-height: 50px;
+            margin-top: 7%;
+        }
+
+    }
+
+    @media screen and (max-width: 980px) {
+            .text h2 {
+            font-size: 30px;
+            line-height: 40px;
+            margin-top: 6%;
+            }
+        
+        
+            #navprojects {
+            margin-top: 48%;
+            font-size: 27px;
+        }
     }
     
-        #content{
-        margin-bottom: 4%;
-    }
     
     
+   /****Tablet*********/
+
+    @media screen and (max-width: 780px) {   
+        
+
+         #content {
+            margin-top: 3%;
+        }
+            
+        #navprojects {
+            margin-top: 48%;
+            font-size: 27px;
+        }
+             
+        .description {
+        column-count: 1;
+        }  
+        
+        
+        .mainimg {
+        width: 100%;
+        }
+        
+        .text h2{
+            font-size: 30px;
+            line-height: 40px;
+            font-style: italic;
+            font-weight: 500;
+            width: 100%;
+            float: left;
+            margin-top: 0%;
+            margin-bottom: 10%;
+            position:relative;
+            text-align: center;
+            height: 200px;
+        }
+        
+        
+        
+                        
+
+        }
+
+    @media screen and (max-width: 600px) {
+
+       #content{
+           width: 100%;
+           margin-left: 0%;
+           margin-right: 0%;
+           
+        }
+        
+            .text h2{
+            font-size: 28px;
+            line-height: 37px;
+            margin-left: -5%;
+            height: 220px;
+                width: 100%;
+            }
         .description{
-            margin-top: 4%;}
-    
-    .mainimg {
-        float: none;
+            width: 85%;
+            margin-left: 7.5%;
+            margin-right: 7.5%;
+        
+         }
+        
+    .pictures {
         width: 100%;
-        margin-top: 8%;
+        margin-right: 0%;
+        margin-left: 0%;
     }
-    
-    .text {
-        float: none;
-        width: 100%;
-        margin-bottom: 4%;
-    }
-    
-    .background {
-        display: none;
-    }
-}
-    
-    
-    
-       @media screen and (max-width: 750px) {
-           
-           
-        #navprojects{
-        margin-top: 55%;
-    }
-    
-    .quotes{
-        font-size: 16px;
-        line-height: 28px;
-    }                 
-
-}
-
-    @media screen and (max-width: 500px) {
-
         
-        #navprojects{
-        display: none;
+        #navprojects {
+            margin-top: 80%;
+            font-size: 26px;
         }
         
-        .quotes{
-            width: 100%;
-            margin: 0;
-
+        #mail{
+            display: none;
         }
-        
-        .quotes p{
-            width: 100%;
-            margin: 0;
+    
+        #privacy{
+            display: none;
         }
-        
+    
+        #imprint{
+            display: none;
+        }   
 
-        
+   
 }

@@ -1,17 +1,27 @@
 .gallery{
-    width: 100%;
+    width: 87%;
     align-self: center;
     overflow: visible;
+    margin-top: 10%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+
 }
 
 
 
     .project{
-        width: 31.3%;
-        margin:1%;
+        width: 48%;
+        margin-left:1%;
+        margin-right:1%;
+        margin-top: 0%;
+        margin-bottom: 2%;
         float: left;
         position: relative;
+        padding: 0;
+
     }
+
 
         .hover {
             transition: .5s ease;
@@ -24,17 +34,22 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%)
+            -ms-transform: translate(-50%, -50%);
+            font-weight: 500;
+
 
         }
 
             .text{
                 text-decoration:none;
-                color:#58585B;
-                font-size:22px;
+                color: #9cac3b;
+                font-size:30px;
+                line-height:40px;
                 font-weight: 100;
                 text-align: center;
                 width: 100%;
+                font-style: italic;
+                font-weight: 500;
             }
 
 
@@ -47,51 +62,117 @@
             }
 
                 .project:hover img{
-                opacity:0.3;
+                opacity:0.2;
                 }
 
                 .project:hover .hover{
                     opacity: 1;
                 }
 
-@media screen and (max-width: 2000px) {
-    
-        .project{
-        width: 31.3;
-    }
-}
 
-@media screen and (max-width: 1400px) {
-    
-        .project{
-        width: 31.3%;
-    }
-}
 
-@media screen and (max-width: 980px) {
-    
-        .project{
-        width: 48%;
-    }
-}
 
-@media screen and (max-width: 750px) {
-    
-        .project{
-        width: 48%;
-    }
-}
+    /**********************
+    *******FOOTER**********
+    ***********************/
 
-@media screen and (max-width: 500px) {
+
+
+            #webcopyright {
+                width: 85%;
+                margin-left: 7.5%;
+                margin-right: 7.5%;
+            }
+
+
+    /**********************
+    ******RESPONSIVE*******
+    ***********************/
+
+    /****Desktop/BigLaptop**********/
+
+    @media screen and (min-width: 1600px) {
+    
+        .text{
+            font-size:35px;
+            line-height:45px;
+            font-weight: 500;
+        }
+    }
+
+
+/******Desktop/XL**********/
+
+    @media screen and (min-width: 2000px) {
+        
+        .text{
+            font-size:45px;
+            line-height:55px;
+        }
+        
+        
+         }  
+
+
+/****smallLaptop*********/
+
+    @media screen and (max-width: 1100px) {
+
+    .gallery{
+        margin-top: 13%;
+    
+            }
+    }
+
+
+@media screen and (max-width: 780px) {
     
         .project{
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-            
+        margin-bottom: 4%;
     }
 }
+
+
+
+/****Mobile*********/
+
+@media screen and (max-width: 555px) {
     
-
-
-
+    
+    .gallery{
+    width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        
+         }
+    
+        .project {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10%;
+            
+    }
+    
+            .text{
+            font-size:22px;
+            line-height:32px;
+        }
+    
+    
+    #mail{
+            display: none;
+        }
+    
+    #privacy{
+            display: none;
+        }
+    
+    #imprint{
+            display: none;
+    }   
+    
+}

@@ -6,7 +6,7 @@
         <meta name="keywords" content="safeya ashraf fawzy, graphic design, book design, publishing, book art, printing, linocut, bookbinding, handcrafts, woodcut, silkscreen, manual prints, letterpress, printing press, nature, illustration, instellation, paper, Egypt, Cairo, Germany, Heidelberg, Berlin, Cologne, GUC, HTW, portfolio">
         <meta name="author" content="Safeya Ashraf Fawzy">
         <title>Safeya Fawzy</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Martel">
+        <link rel="stylesheet" href="https://use.typekit.net/fjt1ghk.css">
         <link rel="stylesheet" href="../Css/reset.css" type="text/css"> 
         <link rel="stylesheet" href="../Css/home.css" type="text/css">
         <link rel="stylesheet" href="../Css/project1.css" type="text/css">
@@ -19,77 +19,53 @@
         -------------------->
     <body>
         
-        <!-------------------
+         <!-------------------
         ------SIDE NAV-------
         -------------------->
             
         <!------button------>
-            <button class="smallmenu">
-                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-                <h1><a href="../index.html">safeya fawzy</a></h1>
-            </button>
-            
-            <nav id="sidenav" class="sidenav">
-                  <a href="javascript:void(0)" class="closebtn" style="font-size:50px;cursor:pointer" onclick="closeNav()">&times;</a>
-                <ul>
-                    <li><a href="../index.html">home</a></li>
-                    <li><a href="../work.html">work</a></li>
-                    <li><a href="../about.html">about</a></li>
-                    <li><a href="../resume.html">resume</a></li>
-                    <li id="lastli"><a href="../contact.html">contact</a></li>
-                </ul>
-            </nav>
-            
-            <script>
-                function openNav() {
-                document.getElementById("sidenav").style.width = "100%";
-                }
+                <button class="smallmenu">
+                    <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+                    <div id="smallnavlogo"><a href="../index.html"><img src="../Images/Bio/Logo.png"></a></div>
+                </button>
 
-                function closeNav() {
-                document.getElementById("sidenav").style.width = "0";
-                }
-            </script>
+                <nav id="sidenav" class="sidenav">
+                      <a href="javascript:void(0)" class="closebtn" style="font-size:50px;cursor:pointer" onclick="closeNav()">&times;</a>
+                    <ul>
+                        <li><a class="mfooternav" href="../work.html">work</a></li>
+                        <li><a class="mfooternav" href="../workshops.html">workshops</a></li>
+                        <li><a class="mfooternav" href="../contact.html">contact</a></li>
+                        <br>
+                        <li><a class="sfooternav" href="../privacy.html">privacy policy</a></li>
+                        <li><a class="sfooternav" href="../imprint.html">imprint</a></li>
+                    </ul>
+                </nav>
+
+                <script>
+                    function openNav() {
+                    document.getElementById("sidenav").style.width = "100%";
+                    }
+
+                    function closeNav() {
+                    document.getElementById("sidenav").style.width = "0";
+                    }
+                </script>
         
         <!-------------------
         ------MAIN NAV-------
         -------------------->
         
         <header>
-            <h1><a href="../index.html">safeya fawzy</a></h1>
+            <div><a href="../index.html"><img src="../Images/Bio/Logo.png"></a></div>
             <nav class="navigation">
                 <ul>
-                    <li><a href="../index.html">home</a></li>
-                    <li><a href="../work.html">work</a></li>
-                    <li><a href="../about.html">about</a></li>
-                    <li><a href="../resume.html">resume</a></li>
-                    <li id="lastli"><a href="../contact.html">contact</a></li>
+                    <li><a href="../work.html">. &nbsp; work</a></li>
+                    <li><a href="../workshops.html">. &nbsp; workshops</a></li>
+                    <li id="lastli"><a href="../contact.html">. &nbsp; contact</a></li>
                 </ul>
             </nav>
-            
-            
         </header>
         
-        <!--Test-->
-        
-        <!--<div class="background"></div>>
-        
-        <!-------------------
-        -------NEXT----------
-        -------------------->
-        
-        <div id="navprojects">
-            <a class="previous" href="project10.html">
-                <img src="../Images/next-01.svg">
-             </a>
-             <a class="next" href="project18.html">
-                <img src="../Images/next-02.svg">
-            </a>
-        </div>
-        
-        <!--<div id="backgallery">
-            <a class="back" href="../work.html">Back to Gallery</a>
-        </div> 
-        >
             <!-------------------
             -------Content--------
             -------------------->
@@ -97,13 +73,28 @@
         
         <div id="content">
             <div class="text">
-                <h2>Buildings of memories</h2>
-                <p class="description">A project documenting forgotten and abandoned buildings in Heliopolis, Cairo. A wander through the streets of Heliopolis and a journey of forgotten buildings that come back to life again. Those buildings are not dead they are present, they are popping up!</p>
-                <p class="info">Supervised by Jochen Braun<br>Team members: Ahmad Hammoud <br>Project photography by Ramy Radwan, <br>Ahmad Hammoud and Safeya Fawzy<br>GUC German University Cairo | 2015 </p>
+                <h2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 7 / <br>
+                    &nbsp; &nbsp; The Western Desert <br>
+                    &nbsp; &nbsp; &nbsp; &nbsp;/ A Living Sculpture <br></h2>
+                <div class="mainimg">
+                    <img src="../Images/Project6/A18.jpg">
+                </div>
+                <p class="description">Journeys to the six oases of the western desert: Dakhla, Kharga, Bahareya, Farafra, Siwa and Fayoum.
+                <br><br>
+                <span class="info"><br>Bachelor Project | GUC German University Cairo | 2016</span>
+                </p>
+                
             </div>    
-            <div class="mainimg">
-                <img src="../Images/Project7/A1.jpg">
-            </div>
+
+        </div>
+        
+        <div id="navprojects">
+            <a class="previous" href="project6.html">
+                6 /
+             </a>
+             <a class="next" href="project8.html">
+                8 /
+            </a>
         </div>
                 
             <!-------------------
@@ -111,33 +102,66 @@
             -------------------->
                 
         <div class="pictures">
-            <img class="outcome" src="../Images/Project7/A2.jpg">
-            <img class="outcome" src="../Images/Project7/A3.jpg">
-            <img class="outcome" src="../Images/Project7/A4.jpg">
-            <img class="outcome" src="../Images/Project7/A5.jpg">
-            <img class="outcome" src="../Images/Project7/A6.jpg">
-            <img class="outcome" src="../Images/Project7/A7.jpg">
-            <img class="outcome" src="../Images/Project7/A8.jpg">
-            <img class="outcome" src="../Images/Project7/A9.jpg">
-            <img class="outcome" src="../Images/Project7/A10.jpg">
-            <img class="outcome" src="../Images/Project7/A11.jpg">
-            
+
+            <h2 class="hquotes">Dakhla Oasis:</h2>
+            <img class="outcome" src="../Images/Project6/A2.jpg">
+            <img class="outcome" src="../Images/Project6/A3.jpg">
+            <img class="outcome" src="../Images/Project6/A4.jpg">
+            <img class="outcome" src="../Images/Project6/A5.jpg">
+            <img class="outcome" src="../Images/Project6/A6.jpg">
+            <img class="outcome" src="../Images/Project6/A7.jpg">
+            <h2 class="hquotes">Bahareya and Farafra Oasis:</h2>
+            <img class="outcome" src="../Images/Project6/A8.jpg">
+            <img class="outcome" src="../Images/Project6/A9.jpg">
+            <img class="outcome" src="../Images/Project6/A10.jpg">
+            <img class="outcome" src="../Images/Project6/A11.jpg">
+            <img class="outcome" src="../Images/Project6/A12.jpg">
+            <img class="outcome" src="../Images/Project6/A13.jpg">
+            <img class="outcome" src="../Images/Project6/A14.jpg">
+            <img class="outcome" src="../Images/Project6/A15.jpg">
+            <h2 class="hquotes">Fayoum Oasis:</h2>
+            <img class="outcome" src="../Images/Project6/A16.jpg">
+            <img class="outcome" src="../Images/Project6/A17.jpg">
+            <img class="outcome" src="../Images/Project6/A18.jpg">
+            <img class="outcome" src="../Images/Project6/A19.jpg">
+            <img class="outcome" src="../Images/Project6/A20.jpg">
 
         </div>
         
         
             <!-------------------
+            ---About this page --
+            -------------------->  
+        
+        
+        <div id="rotateleft">
+            <p class="descriptionleft">
+                <a href="../publication.html">. &nbsp; publication &nbsp;</a>
+                <a href="../graphic.html">. &nbsp; graphic &nbsp;</a>
+                <a href="../multilingual.html">. &nbsp; multilingual design</a>
+            </p>
+        </div>
+        
+        <div id="rotateright">
+            <p class="descriptionright">. &nbsp; english &nbsp;. &nbsp; german &nbsp; . &nbsp; arabic</p>
+        </div>
+        
+            <!-------------------
             -------FOOTER--------
             -------------------->
-        
-        <div id="backgallery">
-            <a class="back" href="../work.html">Back to Gallery</a>
-        </div> 
      
-        <div class="copyright">
-            <p>Copyright 2023</p>
+        <div id="webcopyright" class="copyright">
+            <p>. &nbsp; &#169; 2024 - safeya fawzy</p>
+            <p id="privacy">
+                <a href="../privacy.html">. &nbsp; privacy policy</a>
+            </p>
+            <p id="imprint">
+                <a href="../imprint.html">. &nbsp; imprint</a>
+            </p>
+            <p id="mail">
+                <a href="mailto:safeyafawzy@gmail.com">. &nbsp; safeyafawzy@gmail.com</a>
+            </p>
         </div>
-
 
     </body>
     

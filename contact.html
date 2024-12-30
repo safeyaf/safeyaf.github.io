@@ -6,9 +6,10 @@
         <meta name="keywords" content="safeya ashraf fawzy, graphic design, book design, publishing, book art, printing, linocut, bookbinding, handcrafts, woodcut, silkscreen, manual prints, letterpress, printing press, nature, illustration, instellation, paper, Egypt, Cairo, Germany, Heidelberg, Berlin, Cologne, GUC, HTW, portfolio">
         <meta name="author" content="Safeya Ashraf Fawzy">
         <title>Safeya Fawzy</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Martel">
+        <link rel="stylesheet" href="https://use.typekit.net/fjt1ghk.css">
         <link rel="stylesheet" href="Css/reset.css" type="text/css"> 
         <link rel="stylesheet" href="Css/home.css" type="text/css">
+        <link rel="stylesheet" href="Css/contact.css" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     
@@ -18,66 +19,199 @@
         -------------------->
     <body>
         
-        <!-------------------
+             <!-------------------
         ------SIDE NAV-------
         -------------------->
             
         <!------button------>
-            <button class="smallmenu">
-                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-                <h1><a href="index.html">safeya fawzy</a></h1>
-            </button>
-            
-            <nav id="sidenav" class="sidenav">
-                  <a href="javascript:void(0)" class="closebtn" style="font-size:50px;cursor:pointer" onclick="closeNav()">&times;</a>
-                <ul>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="work.html">work</a></li>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="resume.html">resume</a></li>
-                    <li id="lastli"><a href="contact.html">contact</a></li>
-                </ul>
-            </nav>
-            
-            <script>
-                function openNav() {
-                document.getElementById("sidenav").style.width = "100%";
-                }
+                <button class="smallmenu">
+                    <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+                    <div id="smallnavlogo"><a href="index.html"><img src="Images/Bio/Logo.png"></a></div>
+                </button>
 
-                function closeNav() {
-                document.getElementById("sidenav").style.width = "0";
-                }
-            </script>
-        
+                <nav id="sidenav" class="sidenav">
+                      <a href="javascript:void(0)" class="closebtn" style="font-size:50px;cursor:pointer" onclick="closeNav()">&times;</a>
+                    <ul>
+                        <li><a class="mfooternav" href="work.html">work</a></li>
+                        <li><a class="mfooternav" href="workshops.html">workshops</a></li>
+                        <li><a class="mfooternav" href="contact.html">contact</a></li>
+                        <br>
+                        <li><a class="sfooternav" href="privacy.html">privacy policy</a></li>
+                        <li><a class="sfooternav" href="imprint.html">imprint</a></li>
+                    </ul>
+                </nav>
+
+                <script>
+                    function openNav() {
+                    document.getElementById("sidenav").style.width = "100%";
+                    }
+
+                    function closeNav() {
+                    document.getElementById("sidenav").style.width = "0";
+                    }
+                </script>
         <!-------------------
         ------MAIN NAV-------
         -------------------->
         
         <header>
-            <h1><a href="index.html">safeya fawzy</a></h1>
+            <div><a href="index.html"><img src="Images/Bio/Logo.png"></a></div>
             <nav class="navigation">
                 <ul>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="work.html">work</a></li>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="resume.html">resume</a></li>
-                    <li id="lastli"><a href="contact.html">contact</a></li>
+                    <li><a href="work.html">. &nbsp; work</a></li>
+                    <li><a href="workshops.html">. &nbsp; workshops</a></li>
+                    <li id="lastli"><a href="contact.html">. &nbsp; contact</a></li>
                 </ul>
             </nav>
-            
-            
         </header>
+        
         
             <!-------------------
             -------Content--------
             -------------------->
-    <div id="contact">
-        <h4>safeya fawzy</h4>
-        <p>Graphic Designer & Book Artist<br></p>
-            <ul>
-                <li><br>Phone number: +49 15226900955 <br>E-mail: safeya.fawzy@gmail.com</li>
-            </ul>
-    </div>
+        
+         <div id="contact">
+              <div id="bioimg">
+            <img src="Images/Bio/SF242.jpg">
+             </div>
+             
+            <p id="maininfo3">
+                Multilingual <br>&nbsp; &nbsp; &nbsp; &nbsp; / Publication <br> and Graphic <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; / Design
+                <br>
+                <span id="contactinfo"><br>Safeya Fawzy<br>safeyafawzy@gmail.com</span>
+            </p>
+            <div id="bioimgmobile">
+                <img src="Images/Bio/SF24_web.jpg">
+                <span id="contactinfomobile"><br>Safeya Fawzy <br> safeyafawzy@gmail.com</span>
+            </div>
+        </div>
+        
+         <div id="about">
+             
+            <h1>/ About</h1>
+            <p> Born in Cairo in 1993, Egypt, I grew up in a bilingual home. Having one foot in Egypt and another in Germany, I was exposed to two cultures, two languages and two homes. Such diversity shaped my interests in art, letters and visual communication, which I integrate into my work.
+I studied graphic design at the German University in Cairo (Egypt) and typography and editorial design at the Muthesius University of Fine Arts and Design in Kiel (Germany). Over the years, my passion grew for book design and typography, with a special interest in paper, letters, printing and handmade craftsmanship.
+            <br><br>
+My passion for travelling and exploring has allowed me to gather experiences across Europe and the Middle East, thus participating in workshops and meeting people with diverse skills and interests. I am grateful for the people I have met throughout my journey and am always searching for new encounters.
+            <br><br>
+If you are interested in collaborating or meeting for a cup of tea, please feel welcomed to contact me. Looking forward to meet you!
+            </p>
+             
+        </div>
+        
+        
+    <div id="resume">
+            <div id="education">
+                    <h2>
+                       / Education
+                     </h2>
+
+                    <p>
+                        04.2021 &ndash; present /<br>
+                        M.A. in typogratphy and editorial design<br>
+                        Muthesius Kunsthochschule, Kiel, Germany 
+                        <br><br>
+                        10.2011 &ndash; 06.2017 / <br>
+                        B.A. in graphic design <br>
+                        German University in Cairo (GUC), Egypt
+                        <br><br>
+                        02.2013 &ndash; 02.2014 /<br>
+                        year abroad, communication design, <br>
+                        University of Applied Sciences (HTW)
+                        Berlin, Germany
+                        <br><br>
+                        08.1999 &ndash; 07.2011 /<br>
+                        Abitur, Deutsche Schule der Borromaerinnen<br>
+                        Cairo, Egypt
+                        <br><br><br><br><br>
+                    </p>
+                
+                
+                 <h2>
+                       / Exhibitions & Awards
+                     </h2>
+
+                    <p>
+                        You and me and a book makes three &ndash; 2024 /<br>
+                        Artist books exhibion<br>
+                        SPCE, Kiel, Germany
+                        <br><br>
+                        Leipzig Book Fair &ndash; 2023 /<br>
+                        Muthesius Kunsthochschule, Leipzig, Germany 
+                        <br><br>
+                        Einblick Ausblick &ndash; 2024, 2023, 2022 /<br>
+                        Muthesius Kunsthochschule, Kiel, Germany
+                        <br><br>
+                        100 Best Arabic Posters &ndash; 2016 /<br>
+                        Cairo, Amman and Dubai
+                        <br><br>
+                        The Western Desert: A living sculpture &ndash; 2016 /<br>
+                        Paper instellation <br>
+                        German Universicty in Cairo, Egypt
+                        <br><br>
+                        Acadamic Exellence Award &ndash; 2015 /<br>
+                        German Universicty in Cairo, Egypt
+
+                    </p>
+            </div>
+            
+            <div id="workexerience">
+
+                <h2>
+                       / Work experience
+                    </h2>
+
+                    <p>
+                    11.2022 &ndash; present /<br>
+                    Editorial design, student assistant <br>
+                    of Prof. Annette Le Fort<br>
+                    Muthesius Kunsthochschule, Kiel, Germany
+                        <br><br>
+
+                    06.2019 &ndash; present /<br>
+                    Freelance work, publication & graphic design
+                        <br><br>
+                        
+                    02.2018 &ndash; present /<br>
+                    Social design and design teaching<br>
+                    Werkstattschule Heidelberg, Germany
+                        <br><br>
+
+                    10.2017 &ndash; 12.2017 /<br>
+                    Publication and graphic design<br>
+                    PlanBey, artesian publishing house <br>
+                    Beirut, Lebanon 
+                        <br><br>
+
+                    07.2016 &ndash; 09.2016 /<br>
+                    Graphic design internship<br>
+                    Syntax, design studio<br>
+                    Amman, Jordan
+                        <br><br>
+
+                    08.2015 &ndash; 02.2016 /<br>
+                    Graphic design & design teaching<br>
+                    UNHCR, the UN Refugee Agency funded project:<br>
+                    Nilfurat, women refugee program, <br>
+                    artisan products development<br>
+                    Cairo, Egypt                
+                        <br><br>        
+                        
+                    04.2014 &ndash; 07.2014 /<br>
+                    Volunteering, graphic design<br>
+                    APE, Association for the Protection of the Environment, <br>
+                    women empowerment, paper making <br>
+                    and recycling products<br>
+                    Cairo, Egypt
+                    </p>   
+                
+                
+
+            </div>
+           
+        </div>
+             
+
         
     
                 
@@ -88,16 +222,43 @@
     
         
         
+        
+            <!-------------------
+            ---About this page --
+            -------------------->  
+        
+        
+        <div id="rotateleft">
+            <p class="descriptionleft">
+                <a href="publication.html">. &nbsp; publication &nbsp;</a>
+                <a href="graphic.html">. &nbsp; graphic &nbsp;</a>
+                <a href="multilingual.html">. &nbsp; multilingual design</a>
+            </p>
+        </div>
+        
+        <div id="rotateright">
+            <p class="descriptionright">. &nbsp; english &nbsp;. &nbsp; german &nbsp; . &nbsp; arabic</p>
+        </div>
+
+        
+        
             <!-------------------
             -------FOOTER--------
             -------------------->
-
-     
-        <div class="copyright">
-            <p>Copyright 2023</p>
+        <div id="webcopyright" class="copyright">
+            <p>. &nbsp; &#169; 2024 - safeya fawzy</p>
+            <p id="privacy">
+                <a href="privacy.html">. &nbsp; privacy policy</a>
+            </p>
+            <p id="imprint">
+                <a href="imprint.html">. &nbsp;  imprint</a>
+            </p>
+            <p id="mail">
+                <a href="mailto:safeyafawzy@gmail.com">. &nbsp; safeyafawzy@gmail.com</a>
+            </p>
         </div>
-
-
+    
+        
     </body>
     
 </html>

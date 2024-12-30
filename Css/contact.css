@@ -1,0 +1,572 @@
+    
+   /********PAGE**********
+    *******CONTACT*********
+    ***********************/
+
+
+    #contact {
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        overflow: hidden;
+        
+    }
+
+
+        #bioimg {
+        width:70%;
+            float: left;
+        display: block;
+        } 
+
+        #bioimgmobile {
+            display: none;
+        }
+
+        #maininfo3 {
+
+            float: left;
+            width:30%;
+            font-style: italic;
+            font-size: 48px;
+            line-height: 58px;
+            margin-left: 0%;
+            margin-right: 0%;
+            text-align: center;
+            margin-top: 10%;
+            font-weight: 500;
+                }
+
+        #contactinfo {
+    
+            float: left;
+            width: 85%;
+            font-style: normal;
+            font-size: 28px;
+            line-height: 38px;
+            margin-left: 15%;
+            margin-right: 0%;
+            margin-top: 7%;
+            font-weight: 500;
+            color: #9cac3b;
+            text-align: left;
+            font-weight: 500;
+    }
+
+
+
+        #bioimg img{
+        width:100%;
+            
+        }
+
+        #about{
+            width: 85%;
+            margin-left: 7.5%;
+            margin-right: 7.5%;
+            overflow: hidden;
+            margin-bottom: 10%;
+        }
+
+
+        #about h1{
+            width: 30%;
+            float: left;
+            font-size: 40px;
+            font-style: italic;
+            text-align: center;
+            font-weight: 500;
+            padding-top: 4%;
+        }
+        
+            #about p{
+            width: 70%;
+            float: right;
+            font-size: 23px;
+            line-height: 33px;
+            font-weight: 500;
+
+        }
+
+
+#resume {
+            width: 85%;
+            margin-left: 7.5%;
+            margin-right: 7.5%;
+            float: left;
+            overflow: hidden;
+            margin-bottom: 10%;
+        }  
+
+#resume h2{
+            font-size: 40px;
+            font-style: italic;
+            margin-bottom: 12%;
+            font-weight: 500;
+
+    
+            } 
+
+#education {
+            width: 45%;
+            float: left;
+            font-size: 23px;
+            line-height: 33px;
+            font-weight: 500;
+            margin-right: 5%;
+
+
+
+        }           
+
+#workexerience {
+            width: 50%;
+            float: right;
+            font-size: 23px;
+            line-height: 33px;
+                font-weight: 500;
+
+
+
+
+        }  
+              
+
+
+    /**********************
+    ******RESPONSIVE*******
+    ***********************/
+
+    /****Desktop/BigLaptop**********/
+
+
+    @media screen and (min-width: 1600px) {
+
+        /***contact***/
+        
+                #maininfo3{
+                  font-size: 60px;
+                  line-height: 70px;
+                }
+        
+                #contactinfo {
+                    font-size: 32px;
+                    line-height: 44px;
+                    margin-top: 14%;
+                }
+        
+                #about h1{
+                    font-size: 50px;
+                }    
+                  
+                #about p{
+                    font-size: 28px;
+                    line-height: 40px;
+                    margin-right: 3%;
+                    width: 67%; 
+                }
+        
+        #resume h2{
+            font-size: 50px;
+            } 
+
+        #education {
+            font-size: 28px;
+            line-height: 40px;
+            }           
+
+        #workexerience {
+            font-size: 28px;
+            line-height: 40px;
+                }  
+    }
+
+/******Desktop/XL**********/
+
+    @media screen and (min-width: 2000px) {
+        
+                #maininfo3{
+                font-size: 74px;
+                line-height: 85px;
+                margin-left: 0%;
+                    margin-top: 10%;
+                    margin-bottom: 0%;
+
+                }
+        
+                #contactinfo {
+                    font-size: 38px;
+                    line-height: 50px;
+                    margin-top: 5%;
+                    margin-left: 15%;
+
+                }
+        
+        
+                #about h1{
+                    font-size: 70px;
+                }    
+                  
+                #about p{
+                    font-size: 35px;
+                    line-height: 48px;
+                    margin-right: 3%;
+                    width: 67%; 
+                }
+        
+                #resume h2{
+                font-size: 70px;
+                } 
+
+                #education {
+                    font-size: 35px;
+                    line-height: 48px;
+                    }           
+
+                #workexerience {
+                    font-size: 35px;
+                    line-height: 48px;
+                        }  
+        
+        
+         }   
+        
+        
+/****mediumLaptop*********/
+
+    @media screen and (max-width: 1300px) {
+        
+        
+                #bioimg{
+                    width: 60%;
+                    margin: 0%;
+                }
+     
+                #maininfo3{
+                font-size: 42px;
+                line-height: 52px;
+                width: 38%;
+                margin-left: 0%;
+                    margin-top: 5%;
+                    margin-bottom: 0%;
+
+                }
+        
+                #contactinfo {
+                    font-size: 25px;
+                    line-height: 35px;
+                    margin-top: 0%;
+                    width: 55%;
+                    margin-left: 15%;
+
+                }
+        
+        }
+
+
+
+/****smallLaptop*********/
+
+    @media screen and (max-width: 1100px) {
+
+                #bioimg{
+                    width: 60%;
+                    margin: 0%;
+                }
+     
+                #maininfo3{
+                font-size: 38px;
+                line-height: 46px;
+                width: 38%;
+                margin-left: 0%;
+                    margin-top: 5%;
+                    margin-bottom: 0%;
+
+                }
+        
+                #contactinfo {
+                    font-size: 22px;
+                    line-height: 30px;
+                    margin-top: 0%;
+                    width: 55%;
+                    margin-left: 15%;
+
+                }
+        
+        }
+
+/****TABLET Big*********/
+
+
+ @media screen and (max-width: 900px) {
+
+                #bioimg{
+                    width: 60%;
+                    margin: 0%;
+                    margin-top: 4%;
+
+                }
+     
+                #maininfo3{
+                font-size: 33px;
+                line-height: 40px;
+                width: 38%;
+                margin-left: 0%;
+                margin-top: 5%;
+                margin-bottom: 0%;
+
+                }
+        
+                #contactinfo {
+                    font-size: 22px;
+                    line-height: 30px;
+                    margin-top: 0%;
+                    width: 55%;
+                    margin-left: 15%;
+
+                }           
+        
+                #about h1{
+                    font-size: 33px;
+                }    
+                  
+                #about p{
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-right: 3%;
+                    width: 67%; 
+                }
+     
+             #resume h2{
+            font-size: 33px;
+            } 
+
+        #education {
+            font-size: 20px;
+            line-height: 30px;
+            }           
+
+        #workexerience {
+            font-size: 20px;
+            line-height: 30px;
+                }  
+}
+
+/****TABLET*********/
+
+        @media screen and (max-width: 780px) {
+        
+        #bioimg {
+            display: none;
+        }
+        
+        
+        #contact {
+            width: 100%;
+            margin-right: 0%;
+            margin-left: 0%;
+        }
+         #maininfo3{
+            width: 100%;
+            font-size: 60px;
+            line-height: 70px;
+            margin-right:0%;
+             margin-left: -4%;
+            float: left;
+            margin-bottom: 10%;
+             text-align: center;
+             margin-top: 0%;
+        }
+        
+        
+        #maininfo3 span{
+            display: none;
+        }
+        
+        
+        #contactinfomobile {
+            font-size: 30px;
+            line-height: 40px;
+            text-align: left;
+            margin-right:7.5%;
+            margin-left:7.5%;
+            width: 85%;
+            margin-top: 5%;
+            float: left;
+        }
+        
+        
+        #bioimgmobile {
+            width: 100%;
+            display: block;
+            float: right;
+        }
+        
+        #bioimgmobile img{
+            width: 100%;
+        }
+        
+        #about h1 {
+            width: 100%;
+            text-align: left;
+            margin-bottom: 10%;
+            font-size: 40px;
+        }
+        
+        #about p{
+            width: 100%;
+            font-size: 22px;
+            line-height: 32px;
+            margin: 0%;
+            margin-bottom: 15%;
+        }
+            
+            #resume h2{
+            font-size: 40px;
+             width: 100%;
+            } 
+
+        #education {
+            font-size: 22px;
+            line-height: 32px;
+            width: 100%;
+            margin-bottom: 20%;
+            margin-right: 0%;
+
+            }           
+
+        #workexerience {
+            font-size: 22px;
+            line-height: 32px;
+            width: 100%;
+            margin-bottom: 20%;
+                }  
+        
+        
+        
+        #mail{
+            display: none;
+        }
+    
+        #privacy{
+            display: none;
+        }
+    
+        #imprint{
+            display: none;
+
+        }
+     
+      }
+
+    /****Mobile*********/
+
+    @media screen and (max-width: 555px) {
+        
+        #bioimg {
+            display: none;
+        }
+        
+        
+        #contact {
+            width: 100%;
+            margin-right: 0%;
+            margin-left: 0%;
+        }
+         #maininfo3{
+            width: 100%;
+            font-size: 40px;
+            line-height: 50px;
+            margin-right:0%;
+             margin-left: -5%;
+            float: left;
+            margin-bottom: 10%;
+             text-align: center;
+             margin-top: 0%;
+        }
+        
+        
+        #maininfo3 span{
+            display: none;
+        }
+        
+        
+        #contactinfomobile {
+            font-size: 25px;
+            line-height: 35px;
+            text-align: left;
+            margin-right:7.5%;
+            margin-left:7.5%;
+            width: 85%;
+            margin-top: 5%;
+            float: left;
+        }
+        
+        
+        #bioimgmobile {
+            width: 100%;
+            display: block;
+            float: right;
+        }
+        
+        #bioimgmobile img{
+            width: 100%;
+        }
+        
+        #about h1 {
+            width: 100%;
+            text-align: left;
+            margin-bottom: 10%;
+            font-size: 30px;
+        }
+        
+        #about p{
+            width: 100%;
+            font-size: 22px;
+            line-height: 32px;
+        }
+        
+            #resume h2{
+            font-size: 30px;
+            } 
+
+        #education {
+            font-size: 22px;
+            line-height: 32px;
+            }           
+
+        #workexerience {
+            font-size: 22px;
+            line-height: 32px;
+                }  
+        
+        
+        
+        #mail{
+            display: none;
+        }
+    
+        #privacy{
+            display: none;
+        }
+    
+        #imprint{
+            display: none;
+
+        }
+        
+        
+            /****mini mobile*********/
+
+    @media screen and (max-width: 325px) {
+        
+        #maininfo3 {
+            font-size:32px;
+            line-height: 42px;
+        }
+        
+
+        
+        }

@@ -1,0 +1,93 @@
+#impressum{
+
+    width: 85%;
+    margin-top: 20%;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+    color: #9cac3b;
+}
+
+#impressum h2 {
+        width: 100%;
+        float: left;
+        font-size: 45px;
+        line-height: 55px;
+        font-style: italic;
+        font-weight: 500;
+        margin-bottom: 8%;
+    
+    }
+
+#impressum h3 {
+        font-size: 30px;
+        line-height: 33px;
+        width: 70%;
+        margin-right:30%;
+        float: left;
+            font-weight: 500;
+
+    
+    }
+
+#impressum h5 {
+        font-size: 26px;
+        line-height: 33px;
+        width: 70%;
+        margin-right:30%;
+        float: left;
+            font-weight: 500;
+
+    
+    }
+
+#impressum h4 {
+        font-size: 23px;
+        line-height: 33px;
+        width: 70%;
+        margin-right:30%;
+        float: left;
+            font-style: italic;
+            font-weight: 500;
+
+
+    
+    }
+
+#impressum p {
+        font-size: 23px;
+        line-height: 33px;
+        width: 70%;
+        margin-right:30%;
+        float: left;
+    
+    }
+
+#impressum li {
+        font-size: 23px;
+        line-height: 33px;
+        width: 70%;
+        margin-right:30%;        float: left;
+         list-style-type: none;
+    
+    }
+
+
+               #impressum a{ 
+                    text-decoration:none;
+                    color:#9cac3b;
+                   }
+
+
+/****Responsive*********/
+
+/****TABLET*********/
+
+        @media screen and (max-width: 780px)  {
+        
+            #impressum p {
+        width: 100%;
+        margin-right:0%;
+
+    
+    }
+ }
