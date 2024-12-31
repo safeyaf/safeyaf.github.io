@@ -849,6 +849,11 @@ width: 100%;
 
     @media screen and (max-width: 555px) {
         
+        #bigpic{
+            width:100%;
+            margin: 0%;
+            }
+        
         .smallmenu{
             margin-bottom: 0%;
         }
@@ -905,6 +910,11 @@ width: 100%;
         
 
     @media screen and (max-width: 340px) {
+        
+        #bigpic{
+            width:100%;
+            margin: 0%;
+        }
         
         #maininfo1 {
             font-size:32px;
