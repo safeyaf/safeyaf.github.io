@@ -113,14 +113,17 @@
 
 
 
-/****Tablet*********/
-@media screen and (max-width: 780px) {
+/****Mobile*********/
+@media screen and (max-width: 555px) {
 
     .gallery{
     width: 100%;
         margin-top: 0%;
         margin-left: 0%;
         margin-right: 0%;
+        padding:0;
+        float: right;
+
 
          }
     
@@ -130,6 +133,8 @@
         margin-left: 0%;
         margin-right: 0%;
         padding: 0%;
+        float: right;
+
 
             
     }
@@ -137,6 +142,7 @@
     
     
     .workshop img{
+        float: right;
         width: 100%;
         margin-left: 0%;
         margin-right: 0%;      
@@ -145,6 +151,7 @@
         
     
             .text{
+            float: right;
             width: 100%;
             font-size:22px;
             line-height:32px;
