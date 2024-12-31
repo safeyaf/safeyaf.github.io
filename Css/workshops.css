@@ -131,11 +131,6 @@
         padding: 0%;
             
     }
-    
-    #project1{
-            margin-bottom: 0%;
-
-  }
 
     
     
@@ -153,7 +148,66 @@
             line-height:32px;
             padding: 0%;
             margin-top: 5%;
-            margin-bottom: 5%;      
+            margin-bottom: 5%;  
+            margin-left:0%;
+            margin-right:0%;
+
+        }
+    
+    
+    #mail{
+            display: none;
+        }
+    
+    #privacy{
+            display: none;
+        }
+    
+    #imprint{
+            display: none;
+    }   
+    
+    
+    
+    /****MiniMobile*********/
+
+@media screen and (max-width: 340px) {
+    
+    
+    .gallery{
+    width: 100%;
+        margin-top: 0%;
+         }
+    
+        .workshop   {
+        width: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 0%;
+            
+    }
+
+    
+    
+    .workshop img{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;      
+        padding: 0%;
+        }
+        
+    
+            .text{
+            width: 100%;
+            font-size:22px;
+            line-height:32px;
+            padding: 0%;
+            margin-top: 5%;
+            margin-bottom: 5%;  
+            margin-left:0%;
+            margin-right:0%;
+
         }
     
     
