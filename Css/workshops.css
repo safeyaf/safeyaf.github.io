@@ -119,6 +119,8 @@
     .gallery{
     width: 100%;
         margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
         float:left;
 
          }
@@ -138,7 +140,6 @@
     
     .workshop img{
         width: 100%;
-        float:left;
         margin-left: 0%;
         margin-right: 0%;      
         padding: 0%;
@@ -154,7 +155,6 @@
             margin-bottom: 5%;  
             margin-left:0%;
             margin-right:0%;
-            float:left;
 
 
         }
@@ -182,7 +182,8 @@
     .gallery{
     width: 100%;
         margin-top: 0%;
-        float:left;
+        margin-left: 0%;
+        margin-right: 0%;
 
          }
     
@@ -192,7 +193,6 @@
         margin-left: 0%;
         margin-right: 0%;
         padding: 0%;
-        float:left;
 
             
     }
@@ -201,7 +201,6 @@
     
     .workshop img{
         width: 100%;
-        float:left;
         margin-left: 0%;
         margin-right: 0%;      
         padding: 0%;
@@ -217,8 +216,6 @@
             margin-bottom: 5%;  
             margin-left:0%;
             margin-right:0%;
-            float:left;
-
 
         }
     
