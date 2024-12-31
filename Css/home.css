@@ -924,7 +924,7 @@ width: 100%;
     }
         
         
-               .sidenav{
+            .sidenav{
             display: block;
             height: 100%;
             width: 0;
@@ -985,7 +985,7 @@ width: 100%;
         font-size: 22px;
         line-height: 32px;
     }
-               .sidenav{
+            .sidenav{
             display: block;
             height: 100%;
             width: 0;
