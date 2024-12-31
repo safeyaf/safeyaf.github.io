@@ -708,7 +708,8 @@ width: 100%;
         
         #bigpic{
             width:100%;
-            margin: 0%;
+            margin-left: 0%;
+            margin-right: 0%;
             }
         
         .descriptionleft{
@@ -851,8 +852,9 @@ width: 100%;
         
         #bigpic{
             width:100%;
-            margin: 0%;
-            }
+            margin-left: 0%;
+            margin-right: 0%;
+        }
         
         .smallmenu{
             margin-bottom: 0%;
@@ -913,7 +915,8 @@ width: 100%;
         
         #bigpic{
             width:100%;
-            margin: 0%;
+            margin-left: 0%;
+            margin-right: 0%;
         }
         
         #maininfo1 {
