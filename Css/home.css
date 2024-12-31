@@ -57,7 +57,7 @@ body{
 
         .mfooternav{
             font-size: 40px;
-            line-height: 50px;
+            line-height: 60px;
         }
 
         .sfooternav{
@@ -65,6 +65,16 @@ body{
             line-height: 50px;
         }
 
+        .xsfooternav{
+            font-size: 20px;
+            line-height: 30px;
+        }
+.dimond{
+            font-size: 40px;
+                        line-height: 10px;
+
+    font-style: normal;
+        }
 
 
 /**********************
@@ -749,22 +759,25 @@ width: 100%;
             z-index: 1;
             top: 0;
             right: 0;
-            background-color: #9cac3b;
+            background-color: white;
             overflow-x: hidden;
             transition: 0.5s;
             padding: 0;
             text-align: center;
             padding-top:3.5%;
             margin:0;
+            text-decoration:none;
+
             }
 
         .sidenav ul{
             padding-top: 5%;
+            list-style-type:none;
 
         }
         .sidenav li a{ 
             text-decoration:none;
-            color:white;
+            color:#9cac3b;
         }   
 
         .sidenav ul li a:hover{
@@ -775,7 +788,7 @@ width: 100%;
         
         .closebtn{
             text-decoration: none;
-            color: white;  
+            color: #9cac3b;  
         }
         
         .copyright 
@@ -841,6 +854,10 @@ width: 100%;
             padding: 0%;
         }
         
+        #maininfo2german {
+            display: none;
+
+        }
         
     }
         
